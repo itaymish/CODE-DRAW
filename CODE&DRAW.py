@@ -4,6 +4,7 @@ while 1:
   arr = command.split(' ')
   word = arr[0]
   num = arr[1]
+  goto(0, 0)
   if word == 'forward':
     forward(int(num))
   if word == 'backward':
